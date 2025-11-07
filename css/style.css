@@ -5,3 +5,41 @@
     box-sizing: border-box;
 }
 
+/* utilities */
+
+.background-pink{
+    background-color: pink;
+}
+.background-salmon{
+    background-color: salmon;
+}
+.background-blue{
+    background-color: blue;
+}
+.background-white{
+    background-color: white;
+}
+.background-lightgray{
+    background-color: lightgray;
+}
+.background-dodgerblue{
+    background-color: dodgerblue;
+}
+.background-orange{
+    background-color: orange;
+}
+.background-green{
+    background-color: green;
+}
+.background-lightblue{
+    background-color: lightblue;
+}
+.background-aquamarine{
+    background-color: aquamarine;
+}
+.background-darkcyan{
+    background-color: darkcyan;
+}
+.background-lightgreen{
+    background-color: lightgreen;
+}

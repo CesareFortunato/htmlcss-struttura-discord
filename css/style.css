@@ -59,7 +59,9 @@
     flex-basis: calc((100% / 12) * 4);
 }
 
-/* page styles */
+/* PAGE STYLES */
+
+/* header styles */
 
 .nav-bar-container{
     display: flex;
@@ -99,4 +101,45 @@
   min-width: 20px;   
   height: auto;
   align-self: center;
+}
+
+/* main styles */
+
+.hello-section-container{
+    height: 200px;
+    display: flex;
+}
+
+.first-section-container{
+    height: 300px; 
+}
+
+.second-section{
+    height: 300px;
+}
+
+.third-section{
+    height: 300px;
+}
+
+.close-section{
+    height: 500px;
+}
+
+.hello-section{
+     height: auto;
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.hello-section-img{      
+  flex-basis: 80%;
+  align-self: center;
+  max-width: 80%;    
+  width: 100%;       
+  height: auto;
+  padding: 30px;
 }

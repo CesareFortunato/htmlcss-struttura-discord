@@ -12,8 +12,8 @@
             - li (link)
         - button (login-button)
 - Section0
-    - Div (hello-page)
-        - img (hello-img)
+    - Div (hello-section)
+        - img (hello-section-img)
 - Section1
     - Div (first-section)
         - p (p-first-section)

@@ -1,5 +1,5 @@
 /* reset css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,139 +7,308 @@
 
 /* utilities */
 
-.background-pink{
-    background-color: pink;
+.background-pink {
+    background-color: rgb(255, 134, 154);
 }
-.background-salmon{
+
+.background-salmon {
     background-color: salmon;
 }
-.background-blue{
+
+.background-blue {
     background-color: blue;
 }
-.background-white{
+
+.background-white {
     background-color: white;
 }
-.background-lightgray{
+
+.background-lightgray {
     background-color: lightgray;
 }
-.background-dodgerblue{
+
+.background-dodgerblue {
     background-color: dodgerblue;
 }
-.background-orange{
+
+.background-orange {
     background-color: orange;
 }
-.background-green{
+
+.background-green {
     background-color: green;
 }
-.background-lightblue{
+
+.background-lightblue {
     background-color: lightblue;
 }
-.background-aquamarine{
+
+.background-aquamarine {
     background-color: aquamarine;
 }
-.background-darkcyan{
+
+.background-darkcyan {
     background-color: darkcyan;
 }
-.background-lightgreen{
+
+.background-lightgreen {
     background-color: lightgreen;
 }
-.background-lightslategray{
-    background-color: lightslategray;
+
+.background-lightslategray {
+    background-color: rgb(43, 48, 54);
+}
+
+.background-lightpink {
+    background-color: lightpink;
 }
 
 /* grids */
 
-.col-2{
+.col-2 {
     flex-basis: calc((100% / 12) * 2);
 }
-.col-3{
+
+.col-3 {
     flex-basis: calc((100% / 12) * 3);
 }
-.col-4{
+
+.col-4 {
     flex-basis: calc((100% / 12) * 4);
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.col-10 {
+    flex-basis: calc((100% / 12) * 10);
+}
+
+.border-dotted{
+    border: 2px dotted black;
 }
 
 /* PAGE STYLES */
 
 /* header styles */
 
-.nav-bar-container{
+.nav-bar-container {
     display: flex;
-    justify-items: center; 
+    justify-items: center;
     height: 100px;
     padding: 15px;
 }
 
-.nav-bar{
-    display: flex;    
+.nav-bar {
+    display: flex;
     margin: 0 auto;
     flex-basis: 80%;
     padding: 20px;
     justify-content: space-between;
 }
 
-.lists-nav-bar{
+.lists-nav-bar {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
     list-style-type: none;
     align-self: center;
     column-gap: 100px;
 }
 
-.logo-nav-bar{
-  flex: 1 1 0;       
-  max-width: 60px; 
-  min-width: 20px;   
-  height: auto;
-  align-self: center;
+.logo-nav-bar {
+    flex: 1 1 0;
+    max-width: 60px;
+    min-width: 20px;
+    height: auto;
+    align-self: center;
 
 }
 
-.button-nav-bar{
-  flex: 1 1 0;       
-  max-width: 60px; 
-  min-width: 20px;   
-  height: auto;
-  align-self: center;
+.button-nav-bar {
+    flex: 1 1 0;
+    max-width: 60px;
+    min-width: 20px;
+    height: auto;
+    align-self: center;
 }
 
 /* main styles */
 
-.hello-section-container{
-    height: 200px;
+.hello-section {
     display: flex;
+    justify-content: center;
+    height: 600px;
+    padding: 40px;
 }
 
-.first-section-container{
-    height: 300px; 
-}
-
-.second-section{
-    height: 300px;
-}
-
-.third-section{
-    height: 300px;
-}
-
-.close-section{
-    height: 500px;
-}
-
-.hello-section{
-     height: auto;
+.hello-section-container {
     display: flex;
-    background-color: blue;
+    height: auto;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.hello-section-img {
+    flex-basis: 80%;
+    align-self: center;
+    max-width: 80%;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    padding: 20px;
+}
+
+.first-section-container {
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    padding: 20px;
+}
+
+.second-section-container {
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.third-section-container {
+    display: flex;
+    height: 700px;
     width: 100%;
     margin: 0 auto;
     justify-content: center;
 }
 
-.hello-section-img{      
-  flex-basis: 80%;
-  align-self: center;
-  max-width: 80%;    
-  width: 100%;       
-  height: auto;
-  padding: 30px;
+.third-section {
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
 }
+
+.close-section {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.close-section-container {
+    display: flex;
+    height: 1000px;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* footer */
+
+.footer-section-lists {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer-section-list-container {
+    display: flex;
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.left-column-footer{
+    flex-basis: 100%;
+}
+
+.footer-section-navbar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    border-top: 2px solid lightslategray;
+    align-items: flex-end;
+}
+
+.sub-lits-container{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.lists-footer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.list-footer{
+    flex-basis: 100%;
+    flex: 1 1 0;
+}
+
+.footer-section-navbar-container{
+    display: flex;
+    margin: 0 auto;
+    flex-basis: 80%;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.navbar-footer{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    flex: 1 1 0;
+    max-width: 60px;
+    min-width: 20px;
+    height: auto;
+    align-self: center;
+}
+
+.button-footer{
+    flex: 1 1 0;
+    max-width: 60px;
+    min-width: 20px;
+    height: auto;
+    align-self: center;
+}
+
